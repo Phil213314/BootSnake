@@ -229,7 +229,6 @@ getpixel:
 apple:
     pusha
 
-    ; TODO: generate random numbers in bx
     call random
 
     movzx dx, bh
